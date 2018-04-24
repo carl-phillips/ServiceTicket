@@ -1,6 +1,11 @@
 import java.awt.*;
 import javax.swing.*;
-
+/**
+ * @author Carl Phillips
+ * @Description creates and displays the list in a GUI.
+ * @GUI Creates a default gui with an empty window
+ * @displayGUI iterates through the list and displays the list in a gui sorted by priority
+ */
 public class GUI extends TicketList {
 
 	private JFrame frame;
