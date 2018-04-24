@@ -1,6 +1,8 @@
-//Carl Phillips
-
-//Class to define the service ticket
+/**
+ * @author Carl Phillips
+ * @ServiceTicket constructor to create service tickets
+ * Getters and setters for each field of the ticket
+ */
 public class ServiceTicket {
 	private String make;
 	private String model;
