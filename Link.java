@@ -1,6 +1,11 @@
-//Carl Phillips
-
-//Link class for the list
+/**
+ * @author Carl Phillips
+ * @Description the link class for the list
+ * @Link creates the link to each new ticket
+ * @displayLink prints the ticket coordinated with the link to the console
+ * @getTicket returns the ticket
+ * @getPriority returns the priority of the ticket
+ */
 public class Link {
 	public ServiceTicket newTicket;
 	public Link next;
