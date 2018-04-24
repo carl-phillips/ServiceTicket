@@ -1,3 +1,15 @@
+/**
+ * @author Carl Phillips
+ * @TicketList creates a new list
+ * @isEmpty tells you if the list is empty
+ * @insert inserts a ticket into the list and sorts the list
+ * @deleteFirst deletes the first link in the list
+ * @displayList iterates through the list and prints each one
+ * @getFirst returns the first link in the list
+ * @getCount returns the number of items in the list
+ * @iterateList iterates through the list and returns the priority
+ */
+
 public class TicketList extends ServiceTicket {
 	private Link first;
 	private Link last;
